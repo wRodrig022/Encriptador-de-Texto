@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sweetalert2.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Importar FontAwesome para los iconos -->
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="header-img" src="https://facugl.github.io/Encriptador-JS/img/alura-logo.svg" alt="Logo">    
+    </header>
+    <main>
+        <section class="seccion1">
+            <textarea class="area" placeholder="Ingrese texto aquí..." required></textarea>
+            <div class="contenedor-botones">
+                <p id="advertencia"> solo letras minúsculas y sin acentos </p>
+                <input onclick="encriptar();" type="submit" value="Encriptar" class="btn-encriptar">  
+                <input onclick="desencriptar();" type="submit" value="Desencriptar" class="btn-desincriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedor-munieco ">
+                <img class="" src="https://facugl.github.io/Encriptador-JS/img/mu%C3%B1eco.svg" alt="Muñeco Ilustración" width="100%">
+            </div>
+            <div class="contenedor-titulo ">
+                <h3 id="titulo1">Ningún mensaje fue encontrado</h3>
+                <p id="parrafo1">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <div class="contenedor-resultado">
+                <p id="texto11"></p>
+            </div>
+            <div class="contenedor-copiar">
+                <input onclick="copiarTexto();" type="submit" class="btn-copiar" value="Copiar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="p-footer">Encriptador Alura por<a href="wrodq.com">Wilmer Rodrigo</a></p>
+        <div class="iconos-redes-sociales">
+            <a class="linkedin" href="https://www.linkedin.com/in/so%C3%B1ador-hambriento-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="fb" href="https://www.facebook.com/profile.php?id=100080277459198" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a class="github" href="https://github.com/wRodrig022" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="index.js"></script>
+
+
+</html>

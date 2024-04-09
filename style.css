@@ -92,11 +92,9 @@ section{
     color:rgb(16, 21, 21) ;
 }
 #parrafo1{
-
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
     color:rgb(16, 21, 21) ;
-
 }
 .contenedor-resultado{
     width: 100%;
@@ -143,12 +141,10 @@ footer {
   .iconos-redes-sociales {
     padding-top: 8px;
     font-size: 24px;
-
   }
 .ocultar{
     display: none;
 }
-
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
     body, html {
@@ -160,7 +156,6 @@ footer {
     .header-img{
         padding-top:0px ;
         padding-left:0px ;
-    
     }
     main {
         display:inline-block;
@@ -168,7 +163,6 @@ footer {
     }
     section {
         margin-bottom: 10px; /* Agrega espacio entre las secciones */
-
     }
     .area{
         width: 90%;
@@ -182,24 +176,33 @@ footer {
         border: 1px solid #000; /* Borde sólido de 1 píxel de ancho y color negro */
         border-radius: 10px; /* Bordes redondeados de 10 píxeles */
         background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
-
     }
-
     .contenedor-botones{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 6px;
+    }
+    #advertencia{
+        margin-bottom: 10px;
+        color: rgba(250, 16, 16, 0.976);
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn-encriptar, .btn-desincriptar{
+        width: 46%;
+        height: 35px;
+        cursor:grab; 
     }
     .seccion1 {
         margin-top: 0px;
         width: 100%; /* Redefine el ancho de la seccion2 */
         height: 30%;
         margin-left: 20px;
-
     }
     .seccion2 {
-        width: 100%; /* Redefine el ancho de la seccion2 */
+        width: 99%; /* Redefine el ancho de la seccion2 */
         height: 65%;
         margin-left: 20px;
+        margin-top: 10px;
     }
     .contenedor-resultado{
         padding-top: 20px;
@@ -209,20 +212,34 @@ footer {
         font-size: 18px;
     }
     .contenedor-munieco{
-        width: 100%;
-        height: 60%;
-        padding-top: 10px;
+        width: 81%;
+        height: 52%;
+        padding-top: 24px;
+        padding-left: 32px;
         box-sizing: border-box;
     }
     .contenedor-titulo{
-        margin-top: 40px;
-        text-align:center;
-        background-color: #b0d6d7;
+        margin-top: 67px;
+    }
+    #titulo1{
+        padding: 9px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif;
+        color:rgb(16, 21, 21) ;
+        margin-top: -5px;
+    }
+    #parrafo1{
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        color:rgb(16, 21, 21) ;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     footer {
         border-top: 1px solid;
         margin-left: 18px;
-        margin-top: 30px;
+        margin-top: 25px;
     }
     footer .linkedin {
         color: #0e76a8 ;
@@ -233,6 +250,11 @@ footer {
       footer .github {
         color: #000000 ;
       }
+      footer .p-footer{
+        padding-top: 10px;
+      }
+
+}
       footer .p-footer{
         padding-top: 10px;
       }
